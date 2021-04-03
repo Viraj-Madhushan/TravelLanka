@@ -389,7 +389,7 @@ header .fa-bars {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  text-transform: none;
+  
 }
 
 .contact .row .contact-info .box{
@@ -400,7 +400,7 @@ header .fa-bars {
 .contact .row .contact-info .box h3{
   font-size: 2rem;
   color:#333;
-    text-transform: lowercase;
+  
 }
 
 .contact .row .contact-info .box h3 i{
@@ -465,27 +465,6 @@ header .fa-bars {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Footer section*/
 .footer {
     display: flex;
@@ -496,12 +475,12 @@ header .fa-bars {
 }
 
 .footer .credit {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #eee;
 }
 
 .footer .credit span {
-    color: #0098a1;
+    color: #ff751a;
 }
 
 .footer .icons a {
@@ -518,7 +497,7 @@ header .fa-bars {
 }
 
 .footer .icons a:hover {
-    background: #0098a1;
+    background: #ff751a;
 }
 
 
