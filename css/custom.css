@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
-/*!
- * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -404,7 +399,7 @@ header .fa-bars {
 }
 
 .contact .row .contact-info .box h3 i{
-  color:#0098a1;
+  color:#ff751a;
 }
 
 .contact .row .contact-info .box p{
@@ -413,6 +408,8 @@ header .fa-bars {
   color:#aaa;
 }
 
+
+/*contact us form*/
 .contact .row .contact-form-container{
   width:50%;
 }
@@ -484,7 +481,7 @@ header .fa-bars {
 }
 
 .footer .icons a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0 .5rem;
     height: 4rem;
     width: 4rem;
