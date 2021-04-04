@@ -1,3 +1,4 @@
+/*From bootstrap*/
 @charset "UTF-8";
 
 
@@ -40,7 +41,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
+    
 }
 
 html {
@@ -56,15 +57,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-
-    /*
-    background-image: url("../img/WebBack.jpg");
-  background-repeat:no-repeat;
-  background-attachment: fixed;
-  background-position:center center;
-  background-size: cover;
-    height: 50%;
-*/
 
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -95,7 +87,7 @@ body {
 /*Header Section*/
 header {
     width: 96%;
-    background: #e6fff3;
+    background: #262626;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,13 +110,14 @@ header {
 
 /*HeaderLogo*/
 header .logo {
-    color: #333;
+    color: #e6e6e6;
     font-size: 3rem;
 }
 
 header .logo span {
     color: #0098a1;
 }
+
 
 /*NavigationBar*/
 header .navbar ul {
@@ -142,7 +135,7 @@ header .navbar ul li {
 
 header .navbar ul li a {
     font-size: 2rem;
-    color: #333;
+    color: #e6e6e6;
     transition: .2s linear;
 }
 
@@ -211,6 +204,7 @@ header .fa-bars {
     text-shadow: 0 .3rem .5rem #000;
     padding-left: 2rem;
     border-left: .3rem solid #ddd;
+	text-transform: capitalize;
 }
 
 
@@ -230,6 +224,7 @@ header .fa-bars {
     min-height: 100vh;
     border-top: 2px solid #e6fff3;
     border-bottom: 2px solid #e6fff3;
+	text-transform: capitalize;
 }
 
 
@@ -272,6 +267,7 @@ header .fa-bars {
     color: black;
     font-size: 1.5rem;
     text-shadow: 0 .4rem .6rem rgba(0, 0, 0, .3);
+	text-transform: capitalize;
 }
 
 .location .card-container .content p {
@@ -293,6 +289,7 @@ header .fa-bars {
     color: #fff;
     cursor: pointer;
     transition: .2s linear;
+	text-transform: capitalize;
 
 }
 
@@ -308,6 +305,7 @@ header .fa-bars {
     min-height: 100vh;
     border-top: 2px solid #e6fff3;
     border-bottom: 2px solid #e6fff3;
+	
 }
 
 .activities .card:hover {
@@ -348,12 +346,7 @@ header .fa-bars {
     color: black;
     font-size: 1.5rem;
     text-shadow: 0 .4rem .6rem rgba(0, 0, 0, .3);
-}
-
-.activities .card-container .content p {
-    color: #333;
-    font-size: 1.3rem;
-    padding: 1rem;
+	text-transform: capitalize;
 }
 
 
@@ -369,6 +362,7 @@ header .fa-bars {
     color: #fff;
     cursor: pointer;
     transition: .2s linear;
+	text-transform: capitalize;
 
 }
 
@@ -384,7 +378,7 @@ header .fa-bars {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+	
 }
 
 .contact .row .contact-info .box{
@@ -414,10 +408,10 @@ header .fa-bars {
   width:50%;
 }
 
-.contact .row .contact-form-container h3{
-  font-size: 4rem;
+.contact .contact-form-container z{
+  font-size: 3rem;
   padding-top: 4rem;
-  color:#0098a1;
+  color:#ff751a;
 } 
 
 .contact .row .contact-form-container .inputBox{
@@ -432,7 +426,7 @@ header .fa-bars {
 
 .contact .row .contact-form-container form input, textarea{
   outline: none;
-  border:.2rem solid #0098a1;
+  border:.2rem solid #ff751a;
   height:4rem;
   background:#fff;
   padding:0 1rem;
@@ -474,6 +468,7 @@ header .fa-bars {
 .footer .credit {
     font-size: 1.5rem;
     color: #eee;
+	text-transform: capitalize;
 }
 
 .footer .credit span {
@@ -549,7 +544,7 @@ header .fa-bars {
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
-        background-color: #fff;
+        background-color: #262626;
         border-radius: .5rem;
         box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
         z-index: 1000;
@@ -603,14 +598,6 @@ header .fa-bars {
         margin: 0 auto;
     }
 
-    .newsletter p {
-        padding: 1rem 0;
-    }
-
-    .newsletter form input[type="email"] {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
 
     .footer {
         flex-flow: column;
@@ -665,7 +652,7 @@ header .fa-bars {
 }
 
 .contact .row .contact-info .box h3 i {
-    color: #0098a1;
+    color: #ff751a;
 }
 
 .contact .row .contact-info .box p {
@@ -681,7 +668,7 @@ header .fa-bars {
 .contact .row .contact-form-container h3 {
     font-size: 4rem;
     padding-top: 4rem;
-    color: #0098a1;
+    color: #ff751a;
 }
 
 .contact .row .contact-form-container .inputBox {
@@ -725,57 +712,4 @@ textarea {
     background: #0098a1;
 }
 
-.newsletter {
-    padding: 2rem;
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/img5.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    text-align: center;
-}
 
-.newsletter h1 {
-    font-size: 5rem;
-    color: #fff;
-    text-shadow: 0 .3rem .5rem #000;
-}
-
-.newsletter p {
-    font-size: 2rem;
-    color: #eee;
-    padding: 1rem 15rem;
-}
-
-.newsletter form input {
-    outline: none;
-    border: none;
-    height: 5rem;
-}
-
-.newsletter form input[type="email"] {
-    width: 40rem;
-    padding: 0 1rem;
-    color: #fff;
-    background: rgba(255, 255, 255, .2);
-    font-size: 2rem;
-}
-
-.newsletter form input[type="email"]::placeholder {
-    color: #ccc;
-}
-
-.newsletter form input[type="submit"] {
-    width: 20rem;
-    color: #fff;
-    background: #0098a1;
-    font-size: 2rem;
-    cursor: pointer;
-    margin-left: -1.1rem;
-    transition: .2s;
-}
-
-.newsletter form input[type="submit"]:hover {
-    border: .2rem solid #fff;
-    color: #fff;
-    background: none;
-}
